@@ -1,0 +1,721 @@
+/* Медиазапросы (адаптив) */
+@media (max-width:1440px) {
+
+	/* === Cекция 'Приветствие (home)' === */
+	.home__content {
+		padding-top: calc(83px + 111 * (100vw / 1440));
+		padding-bottom: calc(61px + 165 * (100vw / 1440));
+	}
+
+	.home__title {
+		font-size: calc(23px + 17 * (100vw / 1440));
+		line-height: calc(31px + 22 * (100vw / 1440));
+	}
+
+	.home__text {
+		font-size: calc(14px + 8 * (100vw/1440));
+		line-height: calc(19px + 17 * (100vw/1440));
+	}
+
+	/* === Cекция 'Проекты' === */
+	.projects__content {
+		padding: 0 43px;
+		padding-top: calc(41px + 45 * (100vw / 1440));
+		padding-bottom: calc(58px + 32 * (100vw / 1440));
+	}
+
+	.projects__description-title {
+		font-size: calc(22px + 5 * (100vw / 1440));
+		line-height: calc(30.5px + 7 * (100vw / 1440));
+	}
+
+	.projects__description-text {
+		font-size: calc(11px + 3 * (100vw / 1440));
+		line-height: calc(17px + 10 * (100vw / 1440));
+	}
+
+	.about-project__text {
+		font-size: calc(11px + 2 * (100vw / 1440));
+		line-height: calc(18px + 3 * (100vw / 1440));
+	}
+
+	.about-project__title {
+		font-size: calc(14px + 4 * (100vw / 1440));
+		line-height: calc(19px + 6 * (100vw / 1440));
+	}
+
+	.about-project__slider {
+		width: calc(340px + 340 * (100vw / 1440));
+		height: calc(241px + 241 * (100vw / 1440));
+	}
+
+	/* Секция "Онлайн контроль проектов" */
+	.poster {
+		width: calc(340px + 477 * (100vw / 1440));
+		height: calc(207px + 227 * (100vw / 1440));
+	}
+
+	.poster__image-button {
+		width: calc(37px + 48 * (100vw / 1440));
+		height: calc(37px + 48 * (100vw / 1440));
+	}
+
+	.poster__image-triangle {
+		width: calc(12.2px + 15.8 * (100vw / 1440));
+		height: calc(12.2px + 15.8 * (100vw / 1440));
+	}
+
+	.projects-control__text {
+		font-size: calc(11px + 7 * (100vw / 1440));
+		line-height: calc(19px + 18 * (100vw / 1440));
+	}
+
+	/* === Секция "Наши контакты" === */
+	.contacts__image {
+		width: calc(340px + 585 * (100vw / 1440));
+		height: calc(255px + 210 * (100vw / 1440));
+	}
+
+	.contacts__info {
+		font-size: calc(18px + 2 * (100vw / 1440));
+		line-height: calc(25px + 3 * (100vw / 1440));
+	}
+}
+
+@media (max-width:1300px) {
+
+	/* ====== Основные блоки страницы header, main, footer ====== */
+	.container {
+		max-width: 100%;
+		display: grid;
+		justify-content: center;
+	}
+
+	.header {
+		min-height: 57px;
+		padding: 3px 18px 0;
+	}
+
+	.footer {
+		padding: 0 25px;
+	}
+
+	.main-menu__navigation {
+		display: none;
+	}
+
+	.main-menu__logo {
+		margin: 0;
+	}
+
+	/* === Cекция 'Приветствие (home)' === */
+	.home {
+		padding: 57px 0 0 0;
+		background-position: center 57px;
+	}
+
+	/* === Cекция 'Проекты' === */
+	.projects {
+		min-height: auto;
+	}
+
+	.projects__titles {
+		justify-content: center;
+		margin: 0 0 53px;
+	}
+
+	.projects__content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.projects__description {
+		display: grid;
+		grid-template-columns: minmax(310px, auto);
+		justify-items: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.about-project__container {
+		justify-content: center;
+		grid-template-columns: repeat(2, auto);
+	}
+
+	.about-project__content {
+		align-self: center;
+	}
+
+	.about-project__slider {
+		margin: 0;
+	}
+
+	.projects .slider-arrows {
+		display: flex;
+	}
+
+	.about-project__menu {
+		display: none;
+	}
+
+	/* Секция "Онлайн контроль проектов" */
+	.projects-control {
+		margin: 0;
+		background-color: #131313;
+	}
+
+	.projects-control__title {
+		margin: 0 0 14px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.projects-control__text,
+	.projects-control__form .form__input-field,
+	.projects-control__form .checkbox .checkbox__text,
+	.projects-control__form .form__input-field::placeholder {
+		color: #FFFFFF;
+	}
+
+	.projects-control__form {
+		padding: 0 0 30px;
+	}
+
+	.projects-control__form .form__input-field {
+		background-color: unset;
+	}
+
+	.projects-control__form .form__label {
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	/* === Секция "Виды ремонта" === */
+	.measurement {
+		padding-top: calc(83px + 57 * (100vw / 1440));
+		margin-bottom: calc(83px + 47 * (100vw / 1440));
+	}
+
+	.measurement__title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.measurement .subtitle__icon {
+		margin: 0 auto 40px;
+	}
+
+	.repair-types {
+		margin: 0;
+	}
+
+	.repair-types__cards {
+		column-gap: 25px;
+	}
+
+	.repair-card {
+		flex: 0 1 340px;
+		width: 340px;
+	}
+
+	.repair-card__image {
+		height: 365px;
+	}
+
+	.repair-card__content {
+		max-width: 270px;
+		margin: -141px 0 0 0;
+		padding: 20px 30px 0px 34px;
+		background: #ffffff;
+		box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+	}
+
+	.repair-card__title {
+		margin: 0 0 11px;
+	}
+
+	.repair-card__list {
+		line-height: 22px;
+		padding: 0 0 40px;
+	}
+
+	.repair-card__item {
+		margin: 0 0 9px 10px;
+	}
+
+	.repair-card__text {
+		width: 190.5px;
+		height: 40px;
+		margin: -20px 0 0 0;
+		font-size: 15px;
+		line-height: 21px;
+	}
+
+	.measurement-request__content {
+		grid-template-columns: auto;
+		justify-content: center;
+		row-gap: 60px;
+		padding: 0;
+		margin: 0 0 30px;
+	}
+
+	.measurement-request__list {
+		max-width: 340px;
+		margin: 50px auto 0;
+		row-gap: 50px;
+		padding: 0;
+	}
+
+	.measurement-request__form .checkbox__wrapper {
+		justify-content: center;
+	}
+
+	.measurement-request__form .form__btn {
+		align-self: center;
+	}
+
+	.advantages {
+		justify-content: center;
+		margin: 0;
+	}
+
+	/* === Секция "О нас (наша команда)" === */
+	.team {
+		padding: 0;
+	}
+
+	.team .container {
+		column-gap: 35px;
+		grid-template-columns: repeat(2, auto);
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.team__content {
+		height: auto;
+	}
+
+	.services {
+		padding-left: 37px;
+	}
+
+	.gallery__images {
+		justify-content: center;
+	}
+
+	.gallery {
+		margin: 0;
+	}
+
+	.gallery__images-left-column {
+		margin: 0;
+	}
+
+	.gallery__image {
+		width: 340px;
+	}
+
+	.gallery__image_1,
+	.gallery__image_2 {
+		height: 242px;
+		margin: 0 0 30px;
+	}
+
+	.gallery__image_3,
+	.gallery__image_4 {
+		height: 242px;
+	}
+
+	/* === Секция "Отзывы о нас" === */
+	.reviews {
+		margin: 0 0 58px;
+	}
+
+	.reviews__text {
+		margin: 0 0 20px;
+	}
+
+	.reviews__content {
+		flex-wrap: wrap;
+		column-gap: 10px;
+		row-gap: 30px;
+		justify-content: center;
+	}
+
+	.feedback {
+		flex: 0 1 376px;
+	}
+
+	.work-result {
+		margin: -27px 0 0 0;
+	}
+
+	/* === Секция "Наши контакты" === */
+
+	.contacts {
+		padding: 49px 0;
+		background-color: #181818;
+	}
+
+	.contacts__form {
+		min-height: auto;
+		margin: 0 0 46px;
+		padding: 0;
+		left: 0;
+	}
+
+	.contacts__form .form__body {
+		margin: 0 0 28px;
+		display: grid;
+		grid-template-columns: minmax(340px, auto);
+		grid-template-rows: auto;
+		row-gap: 66px;
+	}
+
+	.contacts__form .form__block:last-child {
+		grid-column: span 1;
+	}
+
+	.contacts__content {
+		display: grid;
+		justify-items: center;
+		background-image: unset;
+		padding: 0;
+	}
+}
+
+@media (max-width:1100px) {
+
+	/* === Секция "Виды ремонта" === */
+	.repair-types__cards {
+		flex-wrap: wrap;
+		row-gap: 60px;
+	}
+
+	/* === Секция "О нас (наша команда)" === */
+	.gallery__images {
+		padding: 50px;
+		grid-template-columns: auto;
+		justify-content: center;
+		row-gap: 20px;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	/* === Cекция 'Проекты' === */
+
+	.projects__description-text {
+		max-width: 600px;
+		margin: 0 auto 72px;
+	}
+
+	.about-project__slider {
+		width: 380px;
+		height: 260px;
+	}
+}
+
+@media (max-width:850px) {
+
+	/* ========== Общие стили для всей страницы ==========*/
+	.form {
+		width: 100%;
+	}
+
+	.form__body {
+		flex-direction: column;
+		row-gap: 66px;
+	}
+
+	.form__block {
+		min-width: 340px;
+	}
+
+	.form__block::before {
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+
+	.form__block:hover:before {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+@media (max-width: 767px) {
+
+	/* ========== Общие стили для всей страницы ==========*/
+	.wrapper {
+		grid-template-rows: auto;
+	}
+
+	.title {
+		font-size: calc(22px + (5 + 5 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(30px + (7 + 7 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.subtitle_small {
+		font-size: calc(15px + (3 + 3 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(21px + (4 + 4 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.main-menu__contacts-button,
+	.projects__titles,
+	.measurement-request,
+	.services__list,
+	.team__content::before,
+	.gallery__image_2,
+	.gallery__image_3,
+	.gallery__image_4,
+	.reviews,
+	.contacts__content::after,
+	.footer {
+		display: none;
+	}
+
+	/* === Cекция 'Приветствие (home)' === */
+	.home__content {
+		padding-top: calc(83px + (111 + 111 * 0.6) * (100vw - 375px) / 1440);
+		padding-bottom: calc(61px + (165 + 165 * 0.6) * (100vw - 375px) / 1440);
+		margin: 0 auto;
+		max-width: 400px;
+	}
+
+	.home__title {
+		font-size: calc(23px + (17 + 17 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(31px + (22 + 22 * 0.7) * (100vw - 375px) / 1440);
+	}
+
+	.home__text {
+		margin: 0 0 70px;
+		font-size: calc(14px + (8 + 8 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(19px + (17 + 17 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.home__buttons {
+		flex-direction: column;
+		row-gap: 21px;
+	}
+
+	.home__btn {
+		width: 100%;
+	}
+
+	/* === Cекция 'Проекты' === */
+	.projects__content {
+		padding-top: calc(41px + (45 + 45 * 0.6) * (100vw - 375px) / 1440);
+		padding-bottom: calc(58px + (32 + 32 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.projects__description-title {
+		margin: -3px 0 29px;
+		font-size: calc(22px + (5 + 5 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(30.5px + (7 + 7 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.projects__description-text {
+		margin: 0 0 72px;
+		font-size: calc(11px + (3 + 3 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(17px + (10 + 10 * 0.6) * (100vw - 375px) / 1440);
+		text-align: center;
+	}
+
+	.about-project__container {
+		grid-template-columns: auto;
+	}
+
+	.about-project__content {
+		grid-template-columns: minmax(auto, 130px) auto;
+		column-gap: 31px;
+		order: 2;
+	}
+
+	.about-project__text {
+		font-size: calc(11px + (2 + 2 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(18px + (3 + 3 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.about-project__title {
+		margin: 0 0 10px;
+		font-size: calc(14px + (4 + 4 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(19px + (6 + 6 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.about-project__slider {
+		width: 340px;
+		height: 241px;
+		margin: 0 0 36.5px;
+		order: 1;
+	}
+
+	.about-project__image_1 {
+		display: none;
+	}
+
+	.about-project__image_2 {
+		display: block;
+	}
+
+	/* Секция "Онлайн контроль проектов" */
+	.poster {
+		width: calc(340px + (477 + 477 * 0.6) * (100vw - 375px) / 1440);
+		height: calc(207px + (227 + 227 * 0.6) * (100vw - 375px) / 1440);
+		margin: 10px auto 49px;
+	}
+
+	.poster__image-button {
+		width: calc(37px + (48 + 48 * 0.6) * (100vw - 375px) / 1440);
+		height: calc(37px + (48 + 48 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.poster__image-triangle {
+		width: calc(12.2px + (15.8 + 15.8 * 0.6) * (100vw - 375px) / 1440);
+		height: calc(12.2px + (15.8 + 15.8 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.poster::after {
+		bottom: -30px;
+	}
+
+	.projects-control__text {
+		font-size: calc(11px + (7 + 7 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(19px + (18 + 18 * 0.6) * (100vw - 375px) / 1440);
+		max-width: 510px;
+		margin: 0 0 72px;
+	}
+
+	.projects-control__form {
+		max-width: 360px;
+		padding: 0;
+	}
+
+	.projects-control__form .form__body {
+		margin: 0;
+	}
+
+	.projects-control__form .checkbox {
+		position: relative;
+		top: -84px;
+	}
+
+	.projects-control__form .form__btn {
+		width: 100%;
+		margin: 0;
+		position: relative;
+		top: 46px;
+	}
+
+	/* === Секция "Виды ремонта" === */
+	.measurement {
+		padding-top: calc(83px + (57 + 57 * 0.6) * (100vw - 375px) / 1440);
+		padding-bottom: 264px;
+		margin: 0;
+	}
+
+	.repair-types__cards {
+		flex-direction: column;
+	}
+
+	/* === Секция "О нас (наша команда)" === */
+	.team {
+		margin: 0;
+	}
+
+	.team__content {
+		background-image: unset;
+		background-color: #181818;
+	}
+
+	.team .container {
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+
+	.services {
+		padding: 0;
+	}
+
+	.services__title {
+		margin: -214px 0 24px;
+		text-align: center;
+	}
+
+	.gallery {
+		margin: -121px 0 0 0;
+		position: relative;
+	}
+
+	.gallery__images {
+		row-gap: 0;
+		padding: 0;
+	}
+
+	.gallery__image_1 {
+		margin: 0;
+	}
+
+	.team .slider-arrows {
+		display: flex;
+	}
+
+	/* === Секция "Наши контакты" === */
+
+	.contacts__form .form__title {
+		margin: 0 0 50px;
+	}
+
+	.contacts__form .checkbox {
+		margin: 0 0 63px;
+	}
+
+	.contacts__content .container {
+		display: flex;
+		flex-direction: column;
+		min-height: auto;
+	}
+
+	.contacts__form .form__btn {
+		width: 100%;
+	}
+
+	.contacts__image {
+		width: calc(340px + (585 + 585 * 0.6) * (100vw - 375px) / 1440);
+		height: calc(255px + (210 + 210 * 0.6) * (100vw - 375px) / 1440);
+		margin: 0 0 40px;
+		order: 1;
+	}
+
+	.contacts__info {
+		margin: 0 0 23.5px;
+		order: 2;
+		font-size: calc(18px + (2 + 2 * 0.6) * (100vw - 375px) / 1440);
+		line-height: calc(25px + (3 + 3 * 0.6) * (100vw - 375px) / 1440);
+	}
+
+	.contacts__social {
+		order: 3;
+		margin: 0;
+	}
+
+	.contacts__icons-item-icon {
+		width: 39px;
+		height: 39px;
+	}
+
+}
+
+@media (max-width: 550px) {
+
+	/* ========== Общие стили для всей страницы ==========*/
+	.container {
+		max-width: 360px;
+	}
+
+	.checkbox__wrapper {
+		justify-content: flex-start;
+	}
+
+	/* === Cекция 'Проекты' === */
+	.projects__description-text {
+		max-width: 340px;
+	}
+
+}
